@@ -18,7 +18,6 @@ A library for making CLI applications beautiful.
 - [moonshine](#moonshine)
   - [Example](#example)
   - [Reference](#reference)
-  - [NO_COLOR](#nocolor)
   - [Installation](#installation)
   - [ANSI256 Color Codes](#ansi256-color-codes)
   - [Development](#development)
@@ -41,10 +40,6 @@ local moonshine = require("moonshine")
 ## Reference
 
 For a full reference of the API, see [the reference](/docs/reference.md).
-
-## NO_COLOR
-
-This library supports [`NO_COLOR`](https://no-color.org/).
 
 ## Installation
 

@@ -23,6 +23,7 @@ dependencies = {
 }
 test_dependencies = {
   "busted >= 2.2",
+  "luatext >= 1.2",
 }
 test = {
   type = "busted",
