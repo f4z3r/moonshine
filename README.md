@@ -19,7 +19,6 @@ A library for making CLI applications beautiful.
   - [Example](#example)
   - [Reference](#reference)
   - [Installation](#installation)
-  - [ANSI256 Color Codes](#ansi256-color-codes)
   - [Development](#development)
 <!--toc:end-->
 
@@ -47,14 +46,6 @@ This module is hosted on LuaRocks and can thus be installed via:
 
 ```bash
 luarocks install moonshine
-```
-
-## ANSI256 Color Codes
-
-To get a list of ANSI color codes run:
-
-```bash
-curl -s https://gist.githubusercontent.com/HaleTom/89ffe32783f89f403bba96bd7bcd1263/raw/e50a28ec54188d2413518788de6c6367ffcea4f7/print256colours.sh | bash
 ```
 
 ## Development

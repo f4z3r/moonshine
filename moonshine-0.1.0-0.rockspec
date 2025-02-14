@@ -33,5 +33,6 @@ build = {
   modules = {
     ["moonshine"] = "./moonshine/init.lua",
     ["moonshine.spinner"] = "./moonshine/spinner.lua",
+    ["moonshine.utils"] = "./moonshine/utils.lua",
   },
 }
