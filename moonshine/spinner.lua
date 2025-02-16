@@ -10,7 +10,7 @@ if lanes.configure then
   lanes.configure()
 end
 
-local DEFAULT_INTERVAL = 100
+local DEFAULT_INTERVAL_MS = 100
 local MILLI_TO_NANO = 1000000
 
 local M = {}
@@ -26,10 +26,12 @@ M.SPINNERS = {
 ---@param func function(any): varargs the function to wrap, which takes a linda to send text updates to the spinner.
 ---@param text string the initial text to display next to the spinner
 ---@param symbols string[]? the symbols to use for the spinner
----@param interval number? the interval at which to render the spinner
+---@param interval number? the interval at which to render the spinner in milliseconds
 function M.wrap(func, text, symbols, interval)
+  assert(type(func) == "function", "expected 1st argument to be a function")
+  assert(text ~= nil, "expected second argument to not be nil")
   symbols = symbols or M.SPINNERS.ROTATING_DOTS
-  interval = interval or DEFAULT_INTERVAL
+  interval = interval or DEFAULT_INTERVAL_MS
   local text_update_channel = lanes.linda()
 
   local function render(sym, suffix, inter)
