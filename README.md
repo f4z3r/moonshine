@@ -1,28 +1,28 @@
-# moonshine
+<div align="center">
 
-<a href="https://github.com/f4z3r/moonshine/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/f4z3r/moonshine?link=https%3A%2F%2Fgithub.com%2Ff4z3r%2Fmoonshine%2Fblob%2Fmain%2FLICENSE" />
-</a>
-<!-- <a href="https://github.com/f4z3r/moonshine/releases"> -->
-<!--     <img src="https://img.shields.io/github/v/release/f4z3r/moonshine?logo=github&link=https%3A%2F%2Fgithub.com%2Ff4z3r%2Fmoonshine%2Freleases" /> -->
-<!-- </a> -->
-<!-- <a href="https://luarocks.org/modules/f4z3r/moonshine"> -->
-<!--     <img src="https://img.shields.io/luarocks/v/f4z3r/moonshine?logo=lua&link=https%3A%2F%2Fluarocks.org%2Fmodules%2Ff4z3r%2Fmoonshine" /> -->
-<!-- </a> -->
+<img src="./assets/logo.jpeg" alt="Moonshine" width="50%">
+
+# Moonshine
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/f4z3r/moonshine/lint-and-test.yml)
+![GitHub License](https://img.shields.io/github/license/f4z3r/beancount?link=https%3A%2F%2Fgithub.com%2Ff4z3r%2Fmoonshine%2Fblob%2Fmain%2FLICENSE)
+![GitHub Release](https://img.shields.io/github/v/release/f4z3r/moonshine?logo=github&link=https%3A%2F%2Fgithub.com%2Ff4z3r%2Fmoonshine%2Freleases)
+![LuaRocks](https://img.shields.io/luarocks/v/f4z3r/moonshine?logo=lua&link=https%3A%2F%2Fluarocks.org%2Fmodules%2Ff4z3r%2Fmoonshine)
+
+### A library to build beautiful command line tools in Lua(JIT).
+
+[About](#about) |
+[Example](#example) |
+[Usage](#reference) |
+[Installation](#installation) |
+[Development](#development)
+
+<hr />
+</div>
+
+## About
 
 A library for making CLI applications beautiful.
-
----
-
-<!--toc:start-->
-- [moonshine](#moonshine)
-  - [Example](#example)
-  - [Reference](#reference)
-  - [Installation](#installation)
-  - [Development](#development)
-<!--toc:end-->
-
----
 
 > TODO add compatibility information
 

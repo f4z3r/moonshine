@@ -12,4 +12,3 @@ context("Given simple texts,", function()
     end)
   end)
 end)
-
