@@ -99,6 +99,7 @@
             [
               selene
               stylua
+              git-cliff
             ]
             ++ (with luaPackage;
               [busted luaposix]
