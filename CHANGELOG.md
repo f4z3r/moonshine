@@ -19,6 +19,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Add changelog generation and github action for it by @f4z3r
 
 ### New Contributors
+* @github-actions[bot] made their first contribution
 * @f4z3r made their first contribution
 
 [unreleased]: https://github.com/f4z3r/moonshine
