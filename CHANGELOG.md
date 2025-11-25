@@ -16,6 +16,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### <!-- 7 -->Miscellaneous Tasks
 - Setup initial development environment by @f4z3r
 - Add ci by @f4z3r
+- Add changelog generation and github action for it by @f4z3r
 
 ### New Contributors
 * @f4z3r made their first contribution
