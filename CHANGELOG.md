@@ -6,6 +6,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### <!-- 7 -->Miscellaneous Tasks
+- Update rockspec to contain description by @f4z3r
+- Update changlog action to trigger on tag pushes by @f4z3r
+
+## [0.1.0] - 2026-02-02
+
 ### <!-- 0 -->Features
 - Implement first version of a spinner by @f4z3r
 - Update text update via linda channel by @f4z3r
