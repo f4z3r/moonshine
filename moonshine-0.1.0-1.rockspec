@@ -1,5 +1,5 @@
 local package_version = "0.1.0"
-local rockspec_revision = "0"
+local rockspec_revision = "1"
 
 rockspec_format = "3.0"
 package = "moonshine"
@@ -11,7 +11,9 @@ source = {
 description = {
   summary = "A library to make CLIs beautiful.",
   detailed = [[
-     TODO
+     A library enabling you to write beautiful CLI applications. This grows mostly
+     from my own need for features that I use in CLIs, but its long term vision is
+     to provide features similiar to https://github.com/charmbracelet/bubbles.
    ]],
   homepage = "https://github.com/f4z3r/moonshine/tree/main",
   license = "MIT",
