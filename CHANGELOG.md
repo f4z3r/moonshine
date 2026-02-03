@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### <!-- 3 -->Documentation
+- Update main documentation on the library by @f4z3r
+
 ### <!-- 7 -->Miscellaneous Tasks
 - Update rockspec to contain description by @f4z3r
 - Update changlog action to trigger on tag pushes by @f4z3r
