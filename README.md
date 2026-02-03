@@ -22,25 +22,40 @@
 
 ## About
 
-A library for making CLI applications beautiful.
-
-> TODO add compatibility information
+A library for making CLI applications beautiful. It mains to provide the basic building blocks that
+CLIs need to be beautiful (progress bars, spinners, prompts, etc). It does not attempt to be a
+proper TUI framework.
 
 ## Example
 
-A simple example to do things:
+A simple example on how to print a spinner with updating text during a long function execution:
 
 ```lua
-local moonshine = require("moonshine")
+local spinner = require("moonshine.spinner")
 
--- TODO
+local a, b = spinner.wrap(function(linda)
+  os.execute("sleep 2s")
+  linda:send("update", "still waiting...")
+  os.execute("sleep 2s")
+  return 1, 2
+end, "waiting...", spinners)
+
+assert(a == 1, "a should be 1")
+assert(b == 2, "b should be 2")
 ```
+
+More examples can be seen under the [`examples/`](./examples/) directory.
 
 ## Reference
 
 For a full reference of the API, see [the reference](/docs/reference.md).
 
 ## Installation
+
+> [!NOTE]
+> This library is mostly tested in practice with LuaJIT. I do not test it regularly with other Lua
+> versions.
+
 
 This module is hosted on LuaRocks and can thus be installed via:
 
