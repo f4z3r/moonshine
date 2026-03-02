@@ -14,7 +14,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Update changlog action to trigger on tag pushes by @f4z3r
 
 ### New Contributors
-* @renovate[bot] made their first contribution in [#2](https://github.com/f4z3r/moonshine/pull/2)
+* @renovate[bot] made their first contribution in [#5](https://github.com/f4z3r/moonshine/pull/5)
 
 ## [0.1.0] - 2026-02-02
 
